@@ -79,7 +79,7 @@
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h4 class="resume-item-details" itemprop="name">{{ education.uni }}</h4>
-          {education.degree}  &bull;  {education.year}
+          <p style = "font-size:18px">{{ education.degree }} </p>
           <h5 class="resume-item-copy" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
