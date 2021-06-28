@@ -46,13 +46,13 @@ resume_section_associations:    false
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            false
+  resume_github_url:            true
   resume_twitter_url:           false
   resume_dribbble_url:          false
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          false
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           false
+  resume_website_url:           true
   resume_medium_url:            false
 resume_print_social_links:      false
 
