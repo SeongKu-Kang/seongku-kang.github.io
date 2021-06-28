@@ -89,10 +89,23 @@
             </ul>
 
           <p class="resume-item-copy">{{education.detail}}</p>
-          <p>{{education.detail2}}</p>
 
         </div>
         {% endfor %}
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">{Hanyang University}</h3>
+          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
+          <p class="resume-item-copy" itemprop="description">
+            <ul class="resume-item-list">
+              {% for award in education.awards %}
+              <li>{{ award.award }}</li>
+              {% endfor %}
+            </ul>
+
+          <p class="resume-item-copy">{4.53}</p>
+
+        </div>
       </section>
       <!-- end Education -->
       {% endif %}
