@@ -27,7 +27,7 @@
                     
                     <tr style="padding:0px">
                         <td style="padding:2.5%;width:20%;max-width:20%">
-                            <a href="images/prof_pic.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/prof_pic.png" class="img-circle"></a>
+                            <a href="images/prof_pic.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/prof_pic.jpg" class="img-circle"></a>
                         </td>
                         <td style="padding:2.5%;width:60%;vertical-align:middle">
                             <p style="text-align:center">
@@ -105,460 +105,42 @@ class="collapsible" data-toggle="collapse" data-target="#content-research" id="r
   style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
   <tbody>
-
-    <tr onmouseout="mwm_stop()" onmouseover="mwm_start()" bgcolor="#ffffd0">
+    <!-- bgcolor="#ffffd0"-->
+    <tr onmouseout="C14_stop()" onmouseover="C14_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/mwm.png' width="160">
+          <img src='images/C14.png' width="160">
         </div>
         <script type="text/javascript">
-          function mwm_start() {
-            document.getElementById('mwm_image').style.opacity = "1";
+          function C14_start() {
+            document.getElementById('C14_image').style.opacity = "1";
           }
 
-          function mwm_stop() {
-            document.getElementById('mwm_image').style.opacity = "0";
+          function C14_stop() {
+            document.getElementById('C14_image').style.opacity = "0";
           }
-          mwm_stop()
+          C14_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2206.14244">
-          <papertitle>Masked World Models for Visual Control
+        <a href="https://aaai.org/Conferences/AAAI-23/">
+          <papertitle>Learning Topology-Specific Experts for Molecular Property Prediction
           </papertitle>
         </a>
         <br>
-        <strong>Younggyo Seo</strong>,
-        <a href="https://danijar.com/">Danijar Hafner</a>,
-        <a href="https://www.haoliu.site/">Hao Liu</a>,
-        <a href="https://fangchenliu.github.io/">Fangchen Liu</a>,
-        <a href="https://stepjam.github.io/">Stephen James</a>,
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>,
-        <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>
+        Suyeon Kim, Dongha Lee, <strong>SeongKu Kang</strong>, Seonghyeon Lee, Hwanjo Yu
         <br>
-        <em>Conference on Robot Learning (CoRL)</em>, 2022.
+        <em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2023.
         <br>
-        <a href="https://arxiv.org/abs/2206.14244">pdf</a>
-        / <a href="https://sites.google.com/view/mwm-rl">website</a> / <a
-          href="https://github.com/younggyoseo/MWM">code</a>
-        <p>We introduce MWM that learns a latent dynamics model on top of an autoencoder trained with
-          convolutional feature masking and reward prediction.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="apv_stop()" onmouseover="apv_start()" bgcolor="#ffffd0">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/apv.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function apv_start() {
-            document.getElementById('apv_image').style.opacity = "1";
-          }
-
-          function apv_stop() {
-            document.getElementById('apv_image').style.opacity = "0";
-          }
-          apv_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2203.13880">
-          <papertitle>Reinforcement Learning with Action-Free Pre-Training from Videos
-          </papertitle>
-        </a>
-        <br>
-        <strong>Younggyo Seo</strong>,
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>,
-        <a href="https://stepjam.github.io/">Stephen James</a>,
-        <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>
-        <br>
-        <em>International Conference on Machine Learning (ICML)</em>, 2022.
-        <br>
-        <a href="https://arxiv.org/abs/2203.13880">pdf</a> / <a
-          href="https://sites.google.com/view/rl-apv">website</a> / <a
-          href="https://github.com/younggyoseo/apv">code</a>
-        <p>We introduce APV that can leverage diverse videos from different domains for pre-training to
-          improve sample-efficiency.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="harp_stop()" onmouseover="harp_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/harp.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function harp_start() {
-            document.getElementById('harp_image').style.opacity = "1";
-          }
-
-          function harp_stop() {
-            document.getElementById('harp_image').style.opacity = "0";
-          }
-          harp_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2209.07143">
-          <papertitle>HARP: Autoregressive Latent Video Prediction with High-Fidelity Image Generator
-          </papertitle>
-        </a>
-        <br>
-        <strong>Younggyo Seo</strong>,
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>,
-        <a href="https://fangchenliu.github.io/">Fangchen Liu</a>,
-        <a href="https://stepjam.github.io/">Stephen James</a>,
-        <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>
-        <br>
-        <em>International Conference on Image Processing (ICIP)</em>, 2022.
-        <br>
-        pdf / code
-        <!-- <a href="https://younggyo.me/">pdf</a> / <a
-          href="https://younggyo.me/">code</a> -->
-        <p>We introduce a video prediction model that can generate 256x256 frames by training an
-          autorgressive transformer on top of VQ-GAN.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="surf_stop()" onmouseover="surf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/surf.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function surf_start() {
-            document.getElementById('surf_image').style.opacity = "1";
-          }
-
-          function surf_stop() {
-            document.getElementById('surf_image').style.opacity = "0";
-          }
-          surf_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2209.07143">
-          <papertitle>SURF: Semi-superivsed Reward Learning with Data Augmentation for Feedback-efficient
-            Preference-based Reinforcement Learning
-          </papertitle>
-        </a>
-        <br>
-        <a href="https://pjj4288.github.io/">Jongjin Park</a>,
-        <strong>Younggyo Seo</strong>,
-        <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>,
-        <a href="https://web.eecs.umich.edu/~honglak/">Honglak Lee</a>,
-        <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>
-        <br>
-        <em>International Conference on Learning Representations (ICLR)</em>, 2022.
-        <br>
-        pdf / code
-        <!-- <a href="https://younggyo.me/">pdf</a> / <a
-          href="https://younggyo.me/">code</a> -->
-        <p>We introduce semi-supervised learning and temporal data augmentation for improving the
-          feedback-efficiency of preferenced-based RL.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="oreo_stop()" onmouseover="oreo_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/oreo.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function oreo_start() {
-            document.getElementById('oreo_image').style.opacity = "1";
-          }
-
-          function oreo_stop() {
-            document.getElementById('oreo_image').style.opacity = "0";
-          }
-          oreo_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2110.14118">
-          <papertitle>Object-Aware Regularization for Addressing Causal Confusion in Imitation Learning
-          </papertitle>
-        </a>
-        <br>
-        <a href="https://scholar.google.co.kr/citations?user=F9DGEgEAAAAJ&hl=en">Jongjin Park*</a>,
-        <strong>Younggyo Seo*</strong>,
-        <a href="https://changliu00.github.io/">Chang Liu</a>,
-        <a href="https://www.microsoft.com/en-us/research/people/lizo/">Li Zhao</a>,
-        <a href="https://stepjam.github.io/">Tao Qin</a>,
-        <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>,
-        <a href="https://www.microsoft.com/en-us/research/people/tyliu/">Tie-Yan Liu</a>
-        <br>
-        <em>Neural Information Processing Systems (NeurIPS)</em>, 2021.
-        <br>
-        <a href="https://arxiv.org/abs/2110.14118">pdf</a> / <a
-          href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/articles/object-aware-regularization-for-addressing-causal-confusion-in-imitation-learning/">article</a>
-        / <a href="https://github.com/alinlab/oreo">code</a>
-        <p>We introduce OREO, a regularization technique for behavior cloning from pixels.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="higl_stop()" onmouseover="higl_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/higl.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function higl_start() {
-            document.getElementById('higl_image').style.opacity = "1";
-          }
-
-          function higl_stop() {
-            document.getElementById('higl_image').style.opacity = "0";
-          }
-          higl_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2110.13625">
-          <papertitle>Landmark-Guided Subgoal Generation in Hierarchical Reinforcement Learning
-          </papertitle>
-        </a>
-        <br>
-        <a href="https://sites.google.com/view/junsu-kim">Junsu Kim</a>,
-        <strong>Younggyo Seo</strong>,
-        <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>
-        <br>
-        <em>Neural Information Processing Systems (NeurIPS)</em>, 2021.
-        <br>
-        <a href="https://arxiv.org/abs/2110.13625">pdf</a>
-        / <a href="https://github.com/junsu-kim97/HIGL">code</a>
-        <p>We introduce HIGL, a goal-conditioned hierarchical RL method that samples landmarks and utilizes
-          them for guiding the training of a high-level policy.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="off2on_stop()" onmouseover="off2on_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/off2on.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function off2on_start() {
-            document.getElementById('off2on_image').style.opacity = "1";
-          }
-
-          function off2on_stop() {
-            document.getElementById('off2on_image').style.opacity = "0";
-          }
-          off2on_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2107.00591">
-          <papertitle>Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic
-            Q-Ensemble
-          </papertitle>
-        </a>
-        <br>
-        <a href="https://sites.google.com/view/seunghyun-lee/home">Seunghyun Lee*</a>,
-        <strong>Younggyo Seo*</strong>,
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>,
-        <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
-        <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>
-        <br>
-        <em>Conference on Robot Learning (CoRL)</em>, 2021.
-        <br>
-        <a href="https://arxiv.org/abs/2107.00591">pdf</a>
-        / <a href="https://github.com/shlee94/Off2OnRL">code</a>
-        <p>We introduce an offline-to-online RL algorithm to address the distribution shift that arises
-          during
-          the transition between offline RL and online RL.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="re3_stop()" onmouseover="re3_start()" bgcolor="#ffffd0">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/re3.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function re3_start() {
-            document.getElementById('re3_image').style.opacity = "1";
-          }
-
-          function re3_stop() {
-            document.getElementById('re3_image').style.opacity = "0";
-          }
-          re3_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2102.09430">
-          <papertitle>State Entropy Maximization with Random Encoders for Efficient Exploration
-          </papertitle>
-        </a>
-        <br>
-        <strong>Younggyo Seo*</strong>,
-        <a href="http://www.lilichen.me/">Lili Chen*</a>,
-        <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>,
-        <a href="https://web.eecs.umich.edu/~honglak/">Honglak Lee</a>,
-        <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee</a>
-        <br>
-        <em>International Conference on Machine Learning (ICML)</em>, 2021.
-        <br>
-        <a href="https://arxiv.org/abs/2102.09430">pdf</a> / <a
-          href="https://sites.google.com/view/re3-rl">website</a> / <a
-          href="https://github.com/younggyoseo/re3">code</a>
-        <p>We introduce RE3, an exploration technique for visual RL that utilizes a k-NN state entropy
-          estimate in the representation space of a randomly initialized & fixed CNN encoder. </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="tmcl_stop()" onmouseover="tmcl_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/tmcl.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function tmcl_start() {
-            document.getElementById('tmcl_image').style.opacity = "1";
-          }
-
-          function tmcl_stop() {
-            document.getElementById('tmcl_image').style.opacity = "0";
-          }
-          tmcl_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2010.13303">
-          <papertitle>Trajectory-wise Multiple Choice Learning for Dynamics Generalization in Reinforcement
-            Learning
-          </papertitle>
-        </a>
-        <br>
-        <strong>Younggyo Seo*</strong>,
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee*</a>,
-        <a href="https://iclavera.github.io/">Ignasi Clavera</a>,
-        <a href="https://scholar.google.com/citations?user=IbcqwaoAAAAJ&hl=en">Thanard Kurutach</a>,
-        <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>,
-        <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>
-        <br>
-        <em>Neural Information Processing Systems (NeurIPS)</em>, 2020.
-        <br>
-        <a href="https://arxiv.org/abs/2010.13303">pdf</a> / <a
-          href="https://sites.google.com/view/trajectory-mcl">website</a> / <a
-          href="https://github.com/younggyoseo/trajectory_mcl">code</a>
-        <p>We introduce T-MCL that learns multi-headed dynamics model whose each prediction head is
-          specialized in certain environments with similar dynamics, i.e., clustering environments.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="cadm_stop()" onmouseover="cadm_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/cadm.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function cadm_start() {
-            document.getElementById('cadm_image').style.opacity = "1";
-          }
-
-          function cadm_stop() {
-            document.getElementById('cadm_image').style.opacity = "0";
-          }
-          cadm_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2005.06800">
-          <papertitle>Context-aware Dynamics Model for Generalization in Model-Based Reinforcement Learning
-          </papertitle>
-        </a>
-        <br>
-        <a href="https://sites.google.com/view/kiminlee">Kimin Lee*</a>,
-        <strong>Younggyo Seo*</strong>,
-        <a href="https://sites.google.com/view/seunghyun-lee/home">Seunghyun Lee</a>,
-        <a href="https://web.eecs.umich.edu/~honglak/">Honglak Lee</a>,
-        <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>
-        <br>
-        <em>International Conference on Machine Learning (ICML)</em>, 2020.
-        <br>
-        <a href="https://arxiv.org/abs/2005.06800">pdf</a> / <a
-          href="https://sites.google.com/view/cadm">website</a> / <a
-          href="https://github.com/younggyoseo/CaDM">code</a>
-        <p>We introduce CaDM that learns a context encoder to extract contextual information from
-          recent history with self-supervised losses of future and backward prediction.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="lwd_stop()" onmouseover="lwd_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/lwd.png' width="160">
-        </div>
-        <script type="text/javascript">
-          function lwd_start() {
-            document.getElementById('lwd_image').style.opacity = "1";
-          }
-
-          function lwd_stop() {
-            document.getElementById('lwd_image').style.opacity = "0";
-          }
-          lwd_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2006.09607">
-          <papertitle>Learning What to Defer for Maximum Independent Sets
-          </papertitle>
-        </a>
-        <br>
-        <a href="https://sungsooahn.notion.site/">Sungsoo Ahn</a>,
-        <strong>Younggyo Seo</strong>,
-        <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>
-        <br>
-        <em>International Conference on Machine Learning (ICML)</em>, 2020.
-        <br>
-        <a href="https://arxiv.org/abs/2006.09607">pdf</a> / <a
-          href="https://github.com/sungsoo-ahn/learning_what_to_defer">code</a>
-        <p>We introduce LwD, a deep RL framework for the maximum independent set problem.</p>
+        <a href="">pdf</a> / 
+        <a href="">code</a>
+        <p></p>
       </td>
     </tr>
   </tbody>
 </table>
 </div>
 
-
-<!-- Publications -->
-
-                <button style="border:0px transparent; background-color: transparent;outline:none;"type="button" class="collapsible" data-toggle="collapse" data-target="#content-publications" id="publications"><heading>Publications</heading></button>
-                <div id="content-publications" class="collapse in">
-
-                <table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-                    <tr>
-                        <td>
-                            Under construction. Please check my <a href="https://scholar.google.com/citations?hl=en&user=PySXCeAAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" >Google Scholar</a> or <a href="data/RishabKhinchaCV.pdf" target="_blank" >CV</a>!
-                        </td>
-                    </tr>
-
-
-
-                </tbody></table>
-                </div>
-                <hr class="soft">
-
-        <tr>
-            <td>
-                <p>This template is a modification to Jon Barron's <a href="https://jonbarron.info/" target="_blank">website</a>. Find the source code to my website <a href="https://github.com/rishabkhincha/rishabkhincha.github.io" target="_blank">here</a>.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p></p>
-            </td>
-        </tr>
-    </table>
 
 </body>
 
