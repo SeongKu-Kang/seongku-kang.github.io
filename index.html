@@ -105,11 +105,41 @@ class="collapsible" data-toggle="collapse" data-target="#content-research" id="r
 
   <tbody>
     <!-- bgcolor="#ffffd0"-->
+   <!-- paper -->
+   <tr onmouseout="J4_stop()" onmouseover="J4_start()">
+    <td style="padding:20px;width:25%;vertical-align:middle">
+      <div class="one">
+        <img src='images/J4.PNG' width="160">
+      </div>
+      <script type="text/javascript">
+        function J4_start() {
+          document.getElementById('J4_image').style.opacity = "1";
+        }
+
+        function J4_stop() {
+          document.getElementById('J4_image').style.opacity = "0";
+        }
+        J4_stop()
+      </script>
+    </td>
+    <td style="padding:20px;width:75%;vertical-align:middle">
+      <a href="https://dl.acm.org/journal/tors">
+        <papertitle>Unbiased, Effective, and Efficient Distillation from Heterogeneous Models for Recommender Systems
+        </papertitle>
+      </a>
+      <br>
+      <strong>SeongKu Kang</strong>, Wonbin Kweon, Dongha Lee, Jianxun Lian, Xing Xie, Hwanjo Yu
+      <br>
+      <em>ACM Transactions on Recommender Systems (TORS) </em>, 2024.
+      <br>
+      <p>We introduce a new approach to leverage dissensus of models to mitigate the popularity amplifications of a large-scale RS.</p>
+    </td>
+  </tr>
      <!-- paper -->
      <tr onmouseout="C19_stop()" onmouseover="C19_start()">
-      <td style="padding:10px;width:25%;vertical-align:middle">
+      <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/C19.png' width="200">
+          <img src='images/C19.png' width="160">
         </div>
         <script type="text/javascript">
           function C19_start() {
