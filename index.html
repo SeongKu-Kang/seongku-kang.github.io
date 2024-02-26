@@ -105,6 +105,37 @@ class="collapsible" data-toggle="collapse" data-target="#content-research" id="r
   style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <!-- bgcolor="#ffffd0"-->
+     <!-- paper -->
+     <tr onmouseout="C20_stop()" onmouseover="C20_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/C20.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function C20_start() {
+            document.getElementById('C20_image').style.opacity = "1";
+          }
+  
+          function C20_stop() {
+            document.getElementById('C20_image').style.opacity = "0";
+          }
+          C20_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://cvpr.thecvf.com/">
+          <papertitle>Learning Discriminative Dynamics with Label Corruption for Noisy Label Detection
+          </papertitle>
+        </a>
+        <br>Suyeon Kim, Dongha Lee, <strong>SeongKu Kang</strong>, Sukang Chae, Sanghwan Jang, Hwanjo Yu
+        <br>
+        <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024.
+        <br>
+        <a href="https://cvpr.thecvf.com/">pdf</a> / 
+        <a href="https://cvpr.thecvf.com/">code</a>
+        <p>We propose DynaCor that distinguishes mislabeled instances based on the dynamics of the training signals. </p>
+      </td>
+    </tr>
    <!-- paper -->
    <tr onmouseout="J4_stop()" onmouseover="J4_start()">
     <td style="padding:20px;width:25%;vertical-align:middle">
