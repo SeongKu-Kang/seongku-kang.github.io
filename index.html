@@ -41,12 +41,13 @@
                             <p style="text-align:center">
                                 <h1  style="text-align:center"><name>SeongKu Kang</name></h1>
                             </p>
-                            <p> I am a postdoctoral researcher in the Department of Computer Science at UIUC, working with 
-                              <a href="http://hanj.cs.illinois.edu/" target="_blank">Prof. Jiawei Han.
-                              </a> I obtained my Ph.D. degree at POSTECH, where I was fortunate to be advised by
-                                <a href="https://sites.google.com/view/postechdi/member/faculty?authuser=0" target="_blank">Prof. Hwanjo Yu.
-                                </a> Previously, I've interned at Microsoft Research Asia as a research intern in Social Computing group.
-                                Feel free to send me an e-mail if you want to collaborate with me!  
+                            <p> I am a postdoctoral researcher in the Department of Computer Science at UIUC, collaborating with <a href="http://hanj.cs.illinois.edu/" target="_blank">Prof. Jiawei Han.
+                              </a> I earned my Ph.D. degree at POSTECH, where I was fortunate to be advised by <a href="https://sites.google.com/view/postechdi/member/faculty?authuser=0" target="_blank">Prof. Hwanjo Yu.
+                                </a> Prior to this, I interned at Microsoft Research Asia in the Social Computing group. 
+                                Feel free to send me an email if you are interested in collaborating with me!
+
+
+                            
                             </p>
                             <p style="text-align:center">
                               <a href="mailto:seongku@postech.ac.kr" target="_blank">Email</a> &nbsp|&nbsp
@@ -83,23 +84,42 @@
                 <hr class="soft">
 
 <!-- Projects -->
+<button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
+class="collapsible" data-toggle="collapse" data-target="#research-interest" id="research">
+<heading>Research Interest</heading>
+</button>
 
+<div id="research-interest" class="collapse in">
+  <table border=0 class="bg_colour"
+    style="padding:15px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <!-- Research Interest -->
+      <tr>
+        <td> 
+          <ul>
+            <li>Data mining and machine learning for real-world applications</li>
+            <li>Information retrieval and recommender systems</li>
+          </ul>        
+        </td>
+        </tr>
+      <tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Projects -->
+<hr class="soft">
 <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
 class="collapsible" data-toggle="collapse" data-target="#content-research" id="research">
-<heading>Research</heading>
+<heading>Publications</heading>
 </button>
 
 <div id="content-research" class="collapse in">
 <table border=0 class="bg_colour"
   style="padding:15px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
-    <!-- Research Interest -->
-    <tr>
-      <td> My research focuses on developing accurate, efficient, and unbiased information retrieval systems, with a particular emphasis on two key applications: search and recommendation.
-      </td>
-      </tr>
-    <tr>
-      <td>Unless otherwise specified, the paper is accepted as a research track long/regular paper.  * indicates equal contribution. 
+    <!-- Publications -->
+    <td>Unless otherwise specified, the paper is accepted as a research track long/regular paper.  * indicates equal contribution. 
       </td>
     </tr>
   </tbody>
@@ -169,6 +189,37 @@ class="collapsible" data-toggle="collapse" data-target="#content-research" id="r
       </td>
     </tr>
     <!-- bgcolor="#ffffd0"-->
+     <!-- paper -->
+     <tr onmouseout="C21_stop()" onmouseover="C21_start()">
+      <td style="padding:15px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/C21.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function C21_start() {
+            document.getElementById('C21_image').style.opacity = "1";
+          }
+  
+          function C21_stop() {
+            document.getElementById('C21_image').style.opacity = "0";
+          }
+          C20_stop()
+        </script>
+      </td>
+      <td style="padding:15px;width:75%;vertical-align:middle">
+        <a href="https://sigir-2024.github.io/index.html">
+          <papertitle>Multi-Domain Sequential Recommendation via Domain Space Learning
+          </papertitle>
+        </a>
+        <br>Junyoung Hwang, Hyunjun Ju, <strong>SeongKu Kang</strong>, Sanghwan Jang, Hwanjo Yu
+        <br>
+        <em>ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</em>, 2024.
+        <br>
+        <a href="https://sigir-2024.github.io/index.html">pdf</a> / 
+        <a href="https://sigir-2024.github.io/index.html">code</a>
+        <p>We introduce a new multi-domain sequential recommendation method, specifically targeting the challenging scenario where recent interactions are highly sparse.</p>
+      </td>
+    </tr>
      <!-- paper -->
      <tr onmouseout="C20_stop()" onmouseover="C20_start()">
       <td style="padding:15px;width:25%;vertical-align:middle">
