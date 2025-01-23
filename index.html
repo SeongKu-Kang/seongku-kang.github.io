@@ -103,98 +103,6 @@ class="collapsible" data-toggle="collapse" data-target="#research-interest" id="
   </table>
 </div>
 
-<!-- interest table toggleable -->
-<style>
-  .custom-table {
-    border-collapse: collapse;
-    margin: 0px auto; /* Center horizontally and add vertical margin */
-    width: 70%; /* Optional: adjust the width as needed */
-    max-width: 800px; /* Optional: adjust the max-width as needed */
-  }
-  .custom-table th, .custom-table td {
-    border: 1px solid #ddd;
-    padding: 3px;
-    height: 3px; /* Set height for rows */
-  }
-  .custom-table th {
-    background-color: #f4f4f4;
-    text-align: left;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  #toggle-button {
-    float: right; /* Float the button to the right */
-  }
-</style>
-
-<button id="toggle-button" onclick="toggleTable()" style="font-size: 15px">See topic distribution</button>
-
-<table id="interest-table" class="custom-table hidden">
-  <thead>
-    <tr>
-      <th style="font-size: 15px">Research Topic</th>
-      <th style="font-size: 15px">Topic distribution (Ph.D.)</th>
-      <th style="font-size: 15px">Topic distribution (Postdoc)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="font-size: 15px">Recommender System</td>
-      <td style="font-size: 15px">███████ 0.371</td>
-      <td style="font-size: 15px">██ 0.108</td>
-    </tr>
-    <tr>
-      <td style="font-size: 15px">Knowledge Distillation</td>
-      <td style="font-size: 15px">██████ 0.314</td>
-      <td style="font-size: 15px">██ 0.081</td>
-    </tr>
-    <tr>
-      <td style="font-size: 15px">Model Compression</td>
-      <td style="font-size: 15px">████ 0.172</td>
-      <td style="font-size: 15px">█ 0.027</td>
-    </tr>
-    <tr>
-      <td style="font-size: 15px">Ensemble Learning</td>
-      <td style="font-size: 15px">███ 0.132</td>
-      <td style="font-size: 15px">-</td>
-    </tr>
-    <tr>
-      <td style="font-size: 15px">Document Retrieval</td>
-      <td style="font-size: 15px">-</td>
-      <td style="font-size: 15px">███████ 0.351</td>
-    </tr>
-    <tr>
-      <td style="font-size: 15px">Large Language Model</td>
-      <td style="font-size: 15px">-</td>
-      <td style="font-size: 15px">█████ 0.243</td>
-    </tr>
-    <tr>
-      <td style="font-size: 15px">Topic & Phrase Mining</td>
-      <td style="font-size: 15px">-</td>
-      <td style="font-size: 15px">████ 0.189</td>
-    </tr>
-  </tbody>
-</table>
-
-<script>
-  function toggleTable() {
-    var table = document.getElementById('interest-table');
-    var button = document.getElementById('toggle-button');
-    if (table.classList.contains('hidden')) {
-      table.classList.remove('hidden');
-      button.textContent = 'Hide topic distribution';
-    } else {
-      table.classList.add('hidden');
-      button.textContent = 'See topic distribution';
-    }
-  }
-</script>
-<!-- interest table toggleable -->
-
-&nbsp;
-
 <!-- Projects -->
 <hr class="soft">
 <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
@@ -323,6 +231,68 @@ class="collapsible" data-toggle="collapse" data-target="#content-research" id="r
     </tr>
     <!-- bgcolor="#ffffd0"-->
 
+
+
+
+     <!-- paper -->
+     <tr onmouseout="C29_stop()" onmouseover="C29_start()">
+      <td style="padding:15px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/C29.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function C29_start() {
+            document.getElementById('C29_image').style.opacity = "1";
+          }
+  
+          function C29_stop() {
+            document.getElementById('C29_image').style.opacity = "0";
+          }
+          C29_stop()
+        </script>
+      </td>
+      <td style="padding:15px;width:75%;vertical-align:middle">
+        <a href="https://www2025.thewebconf.org/">
+          <papertitle>Uncertainty Quantification and Decomposition for LLM-based Recommendation</papertitle>
+        </a>
+        <br>Wonbin Kweon, Sanghwan Jang, <strong>SeongKu Kang</strong><sup>†</sup>, Hwanjo Yu<sup>†</sup><br>
+        <em>ACM The Web Conference (WWW)</em>, 2025.
+        <br>
+        <a href="https://www2025.thewebconf.org/">pdf</a> / 
+        <a href="https://www2025.thewebconf.org/">code</a>
+        <p>We investigate a systematic approach to quantify and decompose the uncertainty in LLM-based recommendation.</p>     
+      </td>
+    </tr>
+
+     <!-- paper -->
+     <tr onmouseout="C28_stop()" onmouseover="C28_start()">
+      <td style="padding:15px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/C28.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function C28_start() {
+            document.getElementById('C28_image').style.opacity = "1";
+          }
+  
+          function C28_stop() {
+            document.getElementById('C28_image').style.opacity = "0";
+          }
+          C28_stop()
+        </script>
+      </td>
+      <td style="padding:15px;width:75%;vertical-align:middle">
+        <a href="https://www2025.thewebconf.org/">
+          <papertitle>Chain-of-Factors Paper-Reviewer Matching</papertitle>
+        </a>
+        <br>Yu Zhang, Yanzhen Shen, <strong>SeongKu Kang</strong>, Xiusi Chen, Bowen Jin, Jiawei Han<br>
+        <em>ACM The Web Conference (WWW)</em>, 2025.
+        <br>
+        <a href="https://www2025.thewebconf.org/">pdf</a> / 
+        <a href="https://www2025.thewebconf.org/">code</a>
+        <p>we propose a unified model for paper-reviewer matching that jointly considers semantic, topic, and citation factors.</p>
+      </td>
+    </tr>
 
      <!-- paper -->
      <tr onmouseout="C27_stop()" onmouseover="C27_start()">
@@ -735,7 +705,7 @@ class="collapsible" data-toggle="collapse" data-target="#content-research" id="r
           </papertitle>
         </a>
         <br>
-        Youngjune Lee, Yeongjong Jeong, Keunchan Park, <strong>SeongKu Kang </strong> (corresponding author)
+        Youngjune Lee, Yeongjong Jeong, Keunchan Park, <strong>SeongKu Kang </strong><sup>†</sup>
         <br>
         <em>ACM International Conference on Information and Knowledge Management (CIKM), short paper</em>,  2023.
         <br>
